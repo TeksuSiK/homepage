@@ -1,11 +1,11 @@
 import { useRouter } from "next/dist/client/router";
-import { useTheme } from 'next-themes';
+import { useTheme } from "next-themes";
 
 import Button from "./Button";
 
 const Navigation = () => {
   const router = useRouter();
-  const { theme, setTheme } = useTheme()
+  const { theme, setTheme } = useTheme();
 
   return (
     <div className="sticky h-14 border-b border-gray-800 bg-gray-900 flex justify-center">
@@ -33,7 +33,7 @@ const Navigation = () => {
         </Button>
 
         <Button
-          onClick={async () => setTheme(theme === 'light' ? 'dark' : 'light')}
+          onClick={async () => setTheme(theme === "light" ? "dark" : "light")}
         >
           Theme switcher
         </Button>

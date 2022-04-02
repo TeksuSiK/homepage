@@ -33,7 +33,9 @@ function MyApp({ Component, pageProps }: AppProps) {
                   <p {...props} />
                 </div>
               ),
-              ul: (props) => <ul className="list-disc list-inside" {...props} />,
+              ul: (props) => (
+                <ul className="list-disc list-inside" {...props} />
+              ),
             }}
           >
             <Component {...pageProps} />
