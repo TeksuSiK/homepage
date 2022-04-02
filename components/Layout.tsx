@@ -1,3 +1,5 @@
+import Navigation from './Navigation'
+
 interface Props {
   children: React.ReactNode;
 }
@@ -5,7 +7,10 @@ interface Props {
 const Layout = ({children}: Props) => {
 return (
   <>
-    {children}
+    <Navigation />
+    <div className="w-full flex justify-center relative">
+      {children}
+    </div>
   </>
 )
 }
