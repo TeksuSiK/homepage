@@ -1,4 +1,4 @@
-import { IconType } from 'react-icons'
+import { IconType } from "react-icons";
 
 interface Props {
   icon: IconType;
@@ -6,7 +6,7 @@ interface Props {
   description: String;
 }
 
-const Item = ({icon, title, description} : Props) => {
+const Item = ({ icon, title, description }: Props) => {
   return (
     <div className="grid gap-2">
       <ul className="flex items-center gap-4">
@@ -15,7 +15,7 @@ const Item = ({icon, title, description} : Props) => {
       </ul>
       <p className="text-sm text-gray-400">{description}</p>
     </div>
-  )
-}
+  );
+};
 
 export default Item;
