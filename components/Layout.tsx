@@ -1,4 +1,5 @@
 import Navigation from './Navigation'
+import Footer from './Footer'
 
 interface Props {
   children: React.ReactNode;
@@ -11,6 +12,7 @@ return (
     <div className="w-full flex justify-center relative">
       {children}
     </div>
+    <Footer />
   </>
 )
 }
