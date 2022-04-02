@@ -24,7 +24,7 @@ class MyDocument extends Document {
  					<meta property="og:url" content="https://www.teksusik.pl"/>
           <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         </Head>
-        <body className="bg-black text-gray-200 relative h-full min-h-screen">
+        <body className="bg-white dark:bg-black text-gray-800 dark:text-gray-200 relative h-full min-h-screen">
           <Main />
           <NextScript />
         </body>
