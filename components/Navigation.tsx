@@ -8,7 +8,7 @@ const Navigation = () => {
   const { theme, setTheme } = useTheme();
 
   return (
-    <div className="sticky h-14 border-b border-gray-800 bg-gray-900 flex justify-center">
+    <div className="sticky h-14 border-b border-gray-200 dark:border-gray-800 bg-gray-100 dark:bg-gray-900 flex justify-center">
       <nav className="max-w-xl w-full flex content-center justify-between p-2 font-sans gap-1">
         <Button
           shouldHover={router.pathname === "/"}
