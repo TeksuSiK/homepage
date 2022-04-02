@@ -1,4 +1,5 @@
 import "../styles/globals.css";
+import Head from "next/head";
 import type { AppProps } from "next/app";
 
 import { MDXProvider } from "@mdx-js/react";
@@ -9,6 +10,9 @@ import Layout from "../components/Layout";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
+      <Head>
+        <title>{"Oskar 'TeksuSiK' Dyka"}</title>
+      </Head>
       <ThemeProvider attribute="class">
         <Layout>
           <MDXProvider
