@@ -35,7 +35,7 @@ const Navigation = () => {
         <Button
           onClick={async () => setTheme(theme === "light" ? "dark" : "light")}
         >
-          Theme switcher
+          Switch theme
         </Button>
       </nav>
     </div>
