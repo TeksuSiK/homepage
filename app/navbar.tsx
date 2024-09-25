@@ -4,6 +4,10 @@ const navItems = {
     '/': {
         name: 'home',
     },
+
+    '/skills': {
+        name: 'skills',
+    },
 }
 
 export default function Navbar() {

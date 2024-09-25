@@ -1,9 +1,9 @@
 export default function Home() {
     return (
         <div>
-            <div className="mb-8 text-2xl font-semibold">Oskar Dyka</div>
+            <div className="mb-8 text-2xl font-semibold">About me</div>
             <div className="mb-4">
-                <div className="mb-2">
+                <div className="mb-4">
                     Hi, I’m Oskar from Poland, and I’ve been programming as a
                     hobby for about five years. For the past few months, I’ve
                     been working as a QA Engineer at a software house, where I
