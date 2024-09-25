@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import Navbar from './navbar'
+import Footer from './footer'
 
 export const metadata: Metadata = {
     title: "Oskar 'teksusik.' Dyka - Homepage",
@@ -18,6 +19,7 @@ export default function RootLayout({
                 <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
                     <Navbar />
                     {children}
+                    <Footer />
                 </main>
             </body>
         </html>
