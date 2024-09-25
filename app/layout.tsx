@@ -4,7 +4,7 @@ import Navbar from './navbar'
 import Footer from './footer'
 
 export const metadata: Metadata = {
-    title: "Oskar 'teksusik.' Dyka - Homepage",
+    title: "Oskar 'teksusik.' Dyka",
     description: "Oskar 'teksusik.' Dyka - Personal homepage",
 }
 
