@@ -1,7 +1,7 @@
 export default function Home() {
     return (
         <div>
-            <div className="mb-8 text-2xl font-semibold">About me</div>
+            <div className="mb-8 text-2xl font-semibold">About Me</div>
             <div className="mb-4">
                 <div className="mb-4">
                     Hi, I’m Oskar from Poland, and I’ve been programming as a
