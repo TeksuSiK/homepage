@@ -5,7 +5,7 @@ export default function Contact() {
         <div>
             <div className="mb-8 text-2xl font-semibold">Contact Me</div>
 
-            <div className="space-y-4">
+            <div className="space-y-4 mb-4">
                 <div>
                     <Link
                         href="mailto:oskar@teksusik.pl"
@@ -25,7 +25,7 @@ export default function Contact() {
                 <div>
                     <Link
                         href="https://discord.com/users/407107019984732181"
-                        className="text-blue-500 underline"
+                        className="text-blue-500 underline mb-8"
                     >
                         Discord
                     </Link>
