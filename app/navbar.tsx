@@ -8,6 +8,10 @@ const navItems = {
     '/skills': {
         name: 'skills',
     },
+
+    '/uses': {
+        name: 'uses',
+    },
 }
 
 export default function Navbar() {
