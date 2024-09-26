@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import ThemeSwitcher from './theme'
 
 const navItems = {
     '/': {
@@ -35,6 +36,9 @@ export default function Navbar() {
                                 </Link>
                             )
                         })}
+                    </div>
+                    <div className="ml-auto">
+                        <ThemeSwitcher />
                     </div>
                 </div>
             </div>
