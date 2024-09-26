@@ -10,6 +10,7 @@ export default function Skills() {
                         <li>Java</li>
                         <li>TypeScript / JavaScript</li>
                         <li>Lua</li>
+                        <li>SQL</li>
                     </ul>
                 </div>
             </div>
@@ -19,7 +20,10 @@ export default function Skills() {
                 <div className="mb-4">
                     <ul className="list-disc list-inside">
                         <li>Spring Boot</li>
+                        <li>Javalin</li>
                         <li>Playwright</li>
+                        <li>Selenium</li>
+                        <li>Paper API (Minecraft)</li>
                     </ul>
                 </div>
             </div>
